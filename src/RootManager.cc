@@ -29,7 +29,7 @@ void MyROOTManager::Initialize()
 	tree -> Branch("EDEP", &c);
 	tree -> Branch("EKIN", &d);
 
-	image = new TH2D("image", "Pixels", 256, -1, 1, 256, -1, 1);
+	image = new TH2D("image", "Pixels", 256, -7, 7, 256, -7, 7);
 
 }
 
